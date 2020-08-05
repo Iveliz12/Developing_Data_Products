@@ -1,0 +1,58 @@
+---
+title: "Assignment 4 Pitch"
+author: "Leo"
+date: "8/5/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
+```
+
+## Introduction
+
+In this assignment, I create 3 application for 3 different purposes. 
+
+First, Body Mass Index is a simple calculation using a person’s height and weight. The formula is BMI = kg/m2 where kg is a person’s weight in kilograms and m2 is their height in metres squared.
+
+Second, Drawing plots based on 3 data distribution, normal distribution, exponential distribution, and uniform distribution. There are 2 plotting types, histogram and basic plot. 
+
+Third, the last application is an interactive map with 7 wonders of the earth marked. You can mark one by one, or all of it at the same time. Enjoy !
+
+## BMI Algorithm
+
+The algorithm for this application is quite simple.
+
+1. Retrieve the height and weight input from user.
+2. Calculate the bmi index using bmi formula height / weight squared.
+3. Based on the bmi information table, check whether bmi value are in which type. 
+4. Return the bmi value and the category back to the user. 
+
+
+## Distribution Plot Algorithm 
+
+For this application, this application follows this algorithm.
+
+1. Retrieve user distribution preference. 
+2. Retreve user desired ammount of data.
+3. In the server, create a data according to user desired distribution and plot both histogram and basic plot.
+4. Return the plot back to the user.
+
+## Interactive Map
+
+For this application, the algorithm goes as follows. 
+
+1. Create data frame consisting information about the places and coordinates. 
+2. Take user selected places, and remove information that isn't selected by user.
+3. Using leaflet package, place a mark at user selected place.
+
+
+## Results 
+
+Here is the link to the final application.
+
+["Coursera Assignment 4"](https://valensioleonard.shinyapps.io/Assignment_4-Coursera/)
+
+Enjoy !!!
+
+
